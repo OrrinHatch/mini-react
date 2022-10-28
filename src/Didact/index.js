@@ -1,6 +1,6 @@
 import { createElement } from "./createElement";
 import { render } from "./render";
-import { useState } from "./useStateHook";
+import { useState } from "./hooks";
 
 Object(window, {
   nextUnitOfWork: null,

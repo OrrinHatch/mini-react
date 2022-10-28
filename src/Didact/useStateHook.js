@@ -1,4 +1,4 @@
-export function useState(initial) {
+export function useStateHook(initial) {
   const oldHook =
     window.wipFiber.alternate &&
     window.wipFiber.alternate.hooks &&

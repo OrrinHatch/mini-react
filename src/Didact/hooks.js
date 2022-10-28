@@ -1,2 +1,3 @@
-let wipFiber = null;
-let hookIndex = null;
+import { useStateHook as useState } from "./useStateHook";
+
+export { useState };
